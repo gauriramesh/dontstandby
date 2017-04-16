@@ -1,0 +1,51 @@
+<html>
+<title> Stop Cyberbullying</title>
+<script src="popup.js"> </script>
+<div>
+	<header id="rcorners1">
+		<style type="text/css">
+body {
+	background-color: rgb(197, 223, 249);
+}
+</style>
+<link href='https://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+<link href="formstyle.css" type="text/css" rel="stylesheet" />
+		<h1>Anti-Cyberbullying</h1>
+	</header>
+</div>
+<form id="contact_form" action="process.php" enctype="multipart/form-data"
+	method="POST">
+	<div class="row">
+		<label for="name">Your name (Optional) :</label><br /> <input
+			id="name" class="input" name="name" size="30" type="text" value="" />
+	</div>
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<label for="email">Your email (Optional):</label><br /> <input
+			id="email" class="input" name="email" size="30" type="text" value="" />
+	</div>
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<label for="classification"> How would you classify yourself?
+		</label><br />
+  <input type="radio" name="type" value="Victim">      Victim<br>
+  <input type="radio" name="type" value="Perpetrator"> Perpetrator<br>
+  <input type="radio" name="type" value="Bystander">  Bystander<br>
+  <input type="radio" name="type" value="Other">       Other<br><br>
+
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" cols="30" name="message" rows="7"></textarea>
+	</div>
+	<p>
+	If you have screenshot evidence of cyberbullying, submit it here: <input type="file" accept=".jpg, .png, .pdf,"id="theFile" />
+	</p>
+	
+	<input id="submit_button" type="submit" value="Submit" />
+	
+	
+</form>
+</html>
+
+Choose kindness. Don't stand by.

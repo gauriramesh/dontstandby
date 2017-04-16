@@ -1,0 +1,429 @@
+
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Shadows Into Light', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Maven Pro, Maven Pro, sans-serif; 
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+li{
+  margin: 10px 0;
+}
+
+#statistics{
+	font-size: 15px;
+	color: white;
+	text-align:left;
+	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+}
+
+#statistics2{
+	font-size: 16px;
+	color: white;
+	text-align:left;
+}
+
+/* Sub Main */
+.submain {
+	text-align: center;
+	background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+	background-size: cover;
+	height: 300px;
+}
+
+.submain .container {
+  position: relative;
+  top: 30px;
+}
+
+.submain h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 100px;
+}
+
+.submain p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.submain .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Main */
+.main {
+  text-align: center;
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 30px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 140px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #1c1c1c;
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+.supporting .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.supporting h2 {
+  color: #007fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+
+.feature .container {
+  position: relative;
+  top: 10px;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin:0;
+  padding:50px 0 0;
+}
+
+/* Footer */
+.footer {
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  top: 10px;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#007fff;
+  color:#000;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+	 background-color: black;
+    border: 1px solid black;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color:#808080;
+    float: left;
+	color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 1.0s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-top: none;
+	background-color:black;
+=======
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Shadows Into Light', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Maven Pro, Maven Pro, sans-serif; 
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Sub Main */
+.submain {
+	text-align: center;
+	background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+	background-size: cover;
+	height: 300px;
+}
+
+.submain .container {
+  position: relative;
+  top: 30px;
+}
+
+.submain h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 100px;
+}
+
+.submain p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.submain .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Main */
+.main {
+  text-align: center;
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 30px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 140px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #1c1c1c;
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+.supporting .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.supporting h2 {
+  color: #007fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+
+.feature .container {
+  position: relative;
+  top: 10px;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin:0;
+  padding:50px 0 0;
+}
+
+/* Footer */
+.footer {
+  background: url("http://www.publicdomainpictures.net/pictures/60000/velka/blue-background-1377807968zmS.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  top: 10px;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#007fff;
+  color:#000;
+}

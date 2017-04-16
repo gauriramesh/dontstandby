@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Cyber Bullying Report",
+  "version": "1.0",
+  "description": "An extension that allows the User to report Cyber Bullying",
+  
+   "permissions": [
+          "tabs"
+        ],
+
+  
+  "icons": {
+    "16" : "images/icon16.png",
+    "48" : "images/icon64.png",
+    "128": "images/icon128.png" },
+  
+    "browser_action": {
+  	"default_icon"  : "images/icon16.png",
+  	"default_popup" : "ReportForm.html"
+  }
+}
+  
